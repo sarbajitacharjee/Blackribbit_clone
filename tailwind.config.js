@@ -11,6 +11,7 @@ export default {
         accent: "#00bcd4"
       },
       fontFamily: {
+        luckiestguy: ['"Luckiest Guy"', 'cursive'],
         sans: ["Inter", "ui-sans-serif", "system-ui"]
       }
     },

@@ -10,7 +10,7 @@ import Home from "./components/Home.jsx";
 import Approach from "./components/Approach.jsx";
 import Work from "./components/OurWork.jsx";
 // import RapidDiagnostic from "./components/RapidDiagnostic.jsx";
-// import Culture from "./components/Culture.jsx";
+import Culture from "./components/Culture.jsx";
 import Podcast from "./components/Podcastpage.jsx";
 import Contact from "./components/Contact.jsx";
 
@@ -84,7 +84,7 @@ export default function App() {
             <Route path="/approach" element={<Approach />} />
             <Route path="/work" element={<Work />} />
             {/* <Route path="/rapid-diagnostic" element={<RapidDiagnostic />} /> */}
-            {/* <Route path="/culture" element={<Culture />} /> */}
+            <Route path="/culture" element={<Culture />} />
             <Route path="/podcast" element={<Podcast />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
