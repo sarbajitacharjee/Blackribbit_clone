@@ -14,6 +14,12 @@ const projects = [
     link: '#',
   },
   {
+    image: 'https://blackribbit.com/wp-content/uploads/2024/05/full-width-banner-portfolio-thumb_EiffelGroup-1.jpg.webp',
+    client: 'Eiffel group',
+    title: 'An Erp integrator with warmth and understanding ',
+    link: '#',
+  },
+  {
     image: 'https://blackribbit.com/wp-content/uploads/2024/05/full-width-banner-portfolio-thumb_BareBeautySpatique-2.jpg.webp',
     client: 'Bare Beauty Boutique',
     title: 'Holistic, transcendent wellness',
@@ -55,11 +61,11 @@ const OurWork = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`relative h-[250px] md:h-[350px] w-full ${project.image ? '' : 'bg-gray-800 flex items-center justify-center text-gray-400 text-center'}`}
+            className={`relative h-[250px] md:h-[380px] w-full ${project.image ? '' : 'bg-gray-800 flex items-center justify-center text-gray-400 text-center'}`}
             style={project.image ? {
               backgroundImage: `url(${project.image})`,
               backgroundSize: 'cover',
-              backgroundPosition: 'cover',
+              backgroundPosition: 'center',
             } : {}}
           >
             {project.image ? (
