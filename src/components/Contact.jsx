@@ -1,4 +1,6 @@
-import froggy from "../assets/froggg.jpg"
+import froggy from "../assets/froggg.jpg";
+
+
 const Contact = () => {
   return (
     <div className="min-h-screen bg-[#1f1f1f] text-white flex flex-col items-center justify-center px-4 py-10">
