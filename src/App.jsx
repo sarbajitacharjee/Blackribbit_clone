@@ -8,7 +8,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 // Pages
 import Home from "./components/Home.jsx";
 import Approach from "./components/Approach.jsx";
-// import Work from "./components/Work.jsx";
+import Work from "./components/OurWork.jsx";
 // import RapidDiagnostic from "./components/RapidDiagnostic.jsx";
 // import Culture from "./components/Culture.jsx";
 // import Podcast from "./components/Podcast.jsx";
@@ -82,7 +82,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/approach" element={<Approach />} />
-            {/* <Route path="/work" element={<Work />} /> */}
+            <Route path="/work" element={<Work />} />
             {/* <Route path="/rapid-diagnostic" element={<RapidDiagnostic />} /> */}
             {/* <Route path="/culture" element={<Culture />} /> */}
             {/* <Route path="/podcast" element={<Podcast />} /> */}
