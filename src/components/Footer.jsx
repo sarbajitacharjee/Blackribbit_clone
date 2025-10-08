@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="w-full bg-white text-black py-10 border-t border-gray-200">
 
 
-            <div className="max-w-7xl  mb-7 pl-28 mx-auto flex justify-center items-center ">
+            <div className="max-w-7xl  mb-7  mx-auto flex justify-center items-center ">
 
                 <img
                     src={frog}
